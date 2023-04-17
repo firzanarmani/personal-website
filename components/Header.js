@@ -46,24 +46,24 @@ export default function Header() {
             >
               Home
             </a>
-            <a
+            {/* <a
               className="text-sm text-gray-700 leading-6 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400"
               href="#about"
             >
               About
-            </a>
+            </a> */}
             <a
               className="text-sm text-gray-700 leading-6 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400"
               href="#projects"
             >
               Projects
             </a>
-            <a
+            {/* <a
               className="text-sm text-gray-700 leading-6 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500 hs-scrollspy-active:text-blue-600 dark:hs-scrollspy-active:text-blue-400"
               href="#contact"
             >
               Contact
-            </a>
+            </a> */}
           </div>
         </div>
       </nav>

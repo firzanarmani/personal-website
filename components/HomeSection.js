@@ -4,10 +4,8 @@ import profilePhoto from "../assets/firzan.jpg";
 import {
   IconBrandGithub,
   IconBrandLinkedin,
-  IconChevronRight,
   IconMail,
   IconMap2,
-  IconMapPinFilled,
 } from "@tabler/icons-react";
 import { IconBrandGithubFilled } from "@tabler/icons-react";
 
@@ -47,19 +45,19 @@ export default function HomeSection() {
                 className="inline-flex justify-center items-center w-8 h-8 text-center hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900"
                 href="mailto:mrfirzanarmani@gmail.com"
               >
-                <IconMail size={16} />
+                <IconMail size={20} />
               </a>
               <a
                 className="inline-flex justify-center items-center w-8 h-8 text-center hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900"
                 href="http://linkedin.com/in/firzan-armani"
               >
-                <IconBrandLinkedin size={16} />
+                <IconBrandLinkedin size={20} />
               </a>
               <a
                 className="inline-flex justify-center items-center w-8 h-8 text-center hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900"
                 href="http://github.com/firzanarmani"
               >
-                <IconBrandGithub size={16} />
+                <IconBrandGithub size={20} />
               </a>
             </div>
           </div>

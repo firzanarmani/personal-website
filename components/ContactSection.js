@@ -1,5 +1,5 @@
 import {
-  IconBrandGithubFilled,
+  IconBrandGithub,
   IconBrandLinkedin,
   IconMail,
 } from "@tabler/icons-react";
@@ -32,14 +32,14 @@ export default function ContactSection() {
                   Home
                 </a>
               </li>
-              <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
+              {/* <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
                 <a
                   className="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
                   href="#about"
                 >
                   About
                 </a>
-              </li>
+              </li> */}
               <li className="inline-block relative pr-8 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-3 before:-translate-y-1/2 before:content-['/'] before:text-gray-300 dark:before:text-gray-600">
                 <a
                   className="inline-flex gap-x-2 text-sm text-gray-500 hover:text-gray-800 dark:text-gray-500 dark:hover:text-gray-200"
@@ -50,24 +50,24 @@ export default function ContactSection() {
               </li>
             </ul>
 
-            <div className="md:text-right space-x-2">
+            <div className="space-x-2">
               <a
                 className="inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900"
                 href="mailto:mrfirzanarmani@gmail.com"
               >
-                <IconMail size={16} />
+                <IconMail size={18} />
               </a>
               <a
                 className="inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900"
                 href="htt://linkedin.com/in/firzan-armani"
               >
-                <IconBrandLinkedin size={16} />
+                <IconBrandLinkedin size={18} />
               </a>
               <a
                 className="inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900"
                 href="http://github.com/firzanarmani"
               >
-                <IconBrandGithubFilled size={16} />
+                <IconBrandGithub size={18} />
               </a>
             </div>
           </div>

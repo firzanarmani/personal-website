@@ -28,25 +28,25 @@ export default function Home() {
         <div id="scrollspy">
           <div
             id="home"
-            class="max-w-[85rem] h-[calc(100vh-61px)] mx-auto py-10 px-4 sm:px-6 lg:px-8"
+            className="max-w-[85rem] h-[calc(100vh-61px)] mx-auto py-10 px-4 sm:px-6 lg:px-8"
           >
             <HomeSection />
           </div>
-          <div
+          {/* <div
             id="about"
-            class="max-w-[85rem] h-[calc(100vh-61px)] mx-auto py-10 px-4 sm:px-6 lg:px-8"
+            className="max-w-[85rem] h-[calc(100vh-61px)] mx-auto py-10 px-4 sm:px-6 lg:px-8"
           >
             <AboutSection />
-          </div>
+          </div> */}
           <div
             id="projects"
-            class="max-w-[85rem] h-[calc(100vh-61px)] mx-auto py-10 px-4 sm:px-6 lg:px-8"
+            className="max-w-[85rem] h-full mx-auto py-10 px-4 sm:px-6 lg:px-8"
           >
             <ProjectsSection />
           </div>
           <div
             id="contact"
-            class="max-w-[85rem] mx-auto py-10 px-4 sm:px-6 lg:px-8"
+            className="max-w-[85rem] mx-auto py-10 px-4 sm:px-6 lg:px-8"
           >
             <ContactSection />
           </div>
