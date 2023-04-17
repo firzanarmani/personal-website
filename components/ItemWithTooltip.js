@@ -13,6 +13,7 @@ export default function ItemWithTooltip({ message, children, link }) {
     <>
       <a
         type="button"
+        href={link}
         ref={setReferenceElement}
         onMouseEnter={() => popperElement.setAttribute("data-show", true)}
         onMouseLeave={() => popperElement.removeAttribute("data-show")}
