@@ -108,7 +108,7 @@ export default function ProjectsSection() {
                       <IconChakraUi
                         height={20}
                         width={20}
-                        className="stroke-gray-800 fill-gray-800 dark:stroke-gray-200 dark:fill-gray-200"
+                        className="stroke-gray-600 fill-gray-600 dark:stroke-gray-200 dark:fill-gray-400"
                       />
                     </ItemWithTooltip>
                     <ItemWithTooltip message="MongoDB">
@@ -118,7 +118,7 @@ export default function ProjectsSection() {
                       <IconFlask
                         height={20}
                         width={20}
-                        className="stroke-gray-800 fill-gray-800 dark:stroke-gray-200 dark:fill-gray-200"
+                        className="stroke-gray-600 fill-gray-600 dark:stroke-gray-200 dark:fill-gray-400"
                       />
                     </ItemWithTooltip>
                   </div>
@@ -175,7 +175,7 @@ export default function ProjectsSection() {
                       <IconExpress
                         height={20}
                         width={20}
-                        className="stroke-gray-800 fill-gray-800 dark:stroke-gray-200 dark:fill-gray-200"
+                        className="stroke-gray-600 fill-gray-600 dark:stroke-gray-200 dark:fill-gray-400"
                       />
                     </ItemWithTooltip>
                   </div>
